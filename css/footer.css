@@ -1,0 +1,33 @@
+.contato{
+  background: black;
+  color: white;
+}
+.contato-cont{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 120px 20px 60px 20px;
+  gap: 100px;
+  align-items: center;
+}
+.contato-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+.contato.contato li{
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 30px;
+}
+.contato.contato li a{
+  color: white;
+}
+.contato-copy{
+  grid-column: 1/-1;
+  color: #8f8f8f;
+  font-size: 1.125rem;
+}
